@@ -4,7 +4,7 @@ Require Import Essentials.Facts_Tactics.
 Require Import Category.Main.
 
 (**
-Fro categories C and C', a functor F : C -> C' consists of an arrow map from
+For categories C and C', a functor F : C -> C' consists of an arrow map from
 objects of C to objects of C' and an arrow map from arrows of C to arrows of C'
 such that an arrow h : a -> b is mapped to (F h) : F a -> F b.
 
